@@ -1,0 +1,14 @@
+#root {
+    background-color: rgba(84, 82, 67, 0.374);
+    min-height: 100vh;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ye ensure karega ki sare borders ek saath chipak jayein */
+}
+
+th, td {
+    border: 1px solid black; /* Yeh har cell ke beech ek border add karega */
+    padding: 8px; /* Thoda space dene ke liye */
+    text-align: left;
+}
